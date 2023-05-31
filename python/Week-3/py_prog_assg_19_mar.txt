@@ -1,0 +1,29 @@
+1. WAP to check for strong passwords. You must write a function that takes a password string as argument and  uses regular expressions to ensure that it is a strong password.
+ . it has at least eight characters 
+ . contains both uppercase and lowercase characters
+ . has at least one digit
+ . has at least one special character
+ 
+2. This exercise will help you learn os module and random module. WAP that can generate a multiple choice quiz for 42 students as follows: 
+ 
+ The quiz tests the students' knowledge of India's states and Union territories and their capitals. Some UTs have no capitals, the capital for these should be NA. You must randomize the order of questions so that each quiz is unique. Thus your program must 
+
+Create 42 different quizzes.
+In each quiz, create 36 multiple-choice questions (28 states, 8 UTs) in random order.
+Provide the correct answer and three random wrong answers for each question, in random order.
+Write the quizzes to 42 text files.
+Write the corresponding answer keys to 42 text files.
+The quiz must have a unique filename, a header "Indian states and UTs and their capitals". Also have place-holders for the student to fill in a name and date. Answer file must have a name that can be matched with quiz file name. For example, you can name the quiz files quiz1, quiz2 etc and the answer files ans1, ans2 etc
+
+First figure out how you will generate a single quiz and answer key, then use a for loop to do it 42 times. You will need intermediate data structures like dictionay and list.
+
+Attached is a sample of how the quiz paper looks.
+
+3. Write a program that opens all .txt files in a directory and searches for any line that matches a user-supplied regular expression. The results should be printed to the screen. This is like the grep facility provided by Unix OS.
+
+
+
+
+
+
+

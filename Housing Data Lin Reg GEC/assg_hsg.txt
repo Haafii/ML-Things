@@ -1,0 +1,20 @@
+Load the data set into Data Frame
+(i) Create a scatterplot matrix that shows a visualizion the pair-wise correlations between the different features in this dataset in one place. Use the pairplot function from the Seaborn library
+
+From this scatterplot matrix, try to see how the data is distributed and whether it contains outliers. 
+Can you see an approximately linear relationship between any  variables?
+Is there any normal distribution you can see
+
+(ii) Create a correlation matrix to quantify and summarize linear relationships between variables. Use NumPy's corrcoef function on the five feature columns visualized in the scatterplot matrix, and use Seaborn's heatmap function to plot the correlation matrix array as a heat map.
+
+(iii) To fit a linear regression model, we are interested in those features that have a high correlation with our target variable MEDV. Looking at the previous correlation matrix, we see that our target variable MEDV shows the largest correlation with the LSTAT variable (-0.74); On the other hand, the correlation between RM and MEDV is also relatively high (0.70).
+
+Read # of rooms as X
+Read med Price as y
+
+Use LinearRegression module to plot slope and intercept
+Standardize both values using scikit library
+
+Use LinearRegression module to plot slope and intercept
+
+

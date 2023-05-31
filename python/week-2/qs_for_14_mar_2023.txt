@@ -1,0 +1,25 @@
+1. Remove outliers
+
+In data science, it is common to remove the extreme values before performing other calculations. Write a function that takes a list of values and an non-negative integer, n, as its parameters.
+The function should create a new copy of the list with the n largest elements and the
+n smallest elements removed. Then it should return the new copy of the list. 
+
+
+2. Display first 10 lines of a File
+WAP that displays the first 10 lines of a file whose name is provided as a command line parameter. Display an appropriate error message if the file does not exist or if the command line parameter is omitted.
+
+Display the last 10 lines of a File
+WAP that displays the last 10 lines of a file whose name is provided as a command line parameter. Display an appropriate error message if the file requested by the user does not exist or if the command line parameter is omitted.
+
+3. Letter Frequencies
+
+WAP that computes and displays the frequencies of all letters in a file. Ignore spaces, punctuation marks, and numbers. Your program should be case insensitive. The user will provide the file name as a command line parameter. Display a meaningful error message if the user provides the wrong number of command line parameters, or if the file cannot be opened.
+
+4. Phone Number and Email Id Extractor
+Your program should find every phone number and email id in a document. Assume that you will copy the document to the clipboard (ctrl A, ctrl c). Then run your program, it will replace the clipboard text with the list of phone numbers and email ids.
+
+High level steps:
+. Identify the python module to copy and paste strings and use it.
+. Create two regexes, one for matching phone numbers and the other for matching email addresses.
+. Neatly format the matched strings into a single string to paste.
+. Display an appropraite message if no matches were found in the text.
